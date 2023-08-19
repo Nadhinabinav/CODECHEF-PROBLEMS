@@ -1,0 +1,23 @@
+2.Add Two Numbers
+
+CODE:
+
+T = int(input())
+for tc in range(T):
+	
+	(a, b) = map(int, input().split(' '))
+	
+	ans = a + b
+	print(ans)
+OUTPUT:
+input
+
+3
+1 2
+100 200
+10 40
+output
+
+3
+300
+50
