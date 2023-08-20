@@ -1,0 +1,21 @@
+4.Squats
+
+CODE:
+
+
+T=int(input())
+for i in range(T):
+    x=int(input())
+    total=15*x
+    print(total)
+OUTPUT:
+
+Input
+3
+1
+4
+99
+Output
+15
+60
+1485
