@@ -1,0 +1,24 @@
+  3.Age Limit
+CODE:
+T=int(input())
+for i in range(T):
+    x,y,a=map(int,input().split())
+    if(a>=x and a<y):
+        print("yes")
+    else:
+        print("NO")
+OUTPUT:
+
+Input
+5
+21 34 30
+25 31 31
+22 29 25
+20 40 15
+28 29 28
+Output
+yes
+NO
+yes
+NO
+yes
