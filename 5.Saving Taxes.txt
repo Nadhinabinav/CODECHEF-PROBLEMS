@@ -1,0 +1,19 @@
+5.Saving Taxes
+CODE:
+T=int(input())
+for i in range(T):
+    x,y=map(int,input().split())
+    tax=(x-y)
+    print(tax)
+OUTPUT:
+Input
+4
+4 2
+8 7
+5 1
+2 1
+Output
+2
+1
+4
+1
