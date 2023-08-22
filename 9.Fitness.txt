@@ -1,0 +1,19 @@
+9.Fitness
+CODE:
+T=int(input())
+for i in range(T):
+    x=int(input())
+    dis=((2*x)*5)
+    print(dis)
+OUTPUT:
+Input
+4
+1
+3
+7
+10
+Output
+10
+30
+70
+100
