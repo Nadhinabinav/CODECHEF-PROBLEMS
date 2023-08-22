@@ -1,0 +1,19 @@
+8.Biryani classes
+CODE:
+T=int(input())
+for i in range(T):
+    x,y=map(int,input().split())
+    total=x*y
+    print(total)
+OUTPUT:
+Input
+4
+1 10
+1 15
+2 10
+2 15
+Output
+10
+15
+20
+30
