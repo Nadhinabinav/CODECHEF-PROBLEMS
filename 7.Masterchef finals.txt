@@ -1,0 +1,21 @@
+7.Masterchef finals
+CODE:
+T=int(input())
+for i in range(T):
+    x=int(input())
+    if(x<=10):
+        print("YES")
+    else:
+        print("NO")
+OUTPUT:
+Input
+4
+15
+10
+1
+50
+Output
+NO
+YES
+YES
+NO
