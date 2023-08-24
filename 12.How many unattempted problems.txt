@@ -1,0 +1,14 @@
+12.How many unattempted problems
+
+CODE:
+
+x,y=map(int,input().split())
+z=(x-y)
+print(z)
+
+
+OUTPUT:
+Input
+10 4
+Output
+6
