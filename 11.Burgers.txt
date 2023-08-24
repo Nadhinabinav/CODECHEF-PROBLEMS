@@ -1,0 +1,27 @@
+11.Burgers
+
+
+CODE:
+  T=int(input())
+for i in range(T):
+    a,b = map(int,input().split())
+    if(a<=b):
+        print(a)
+    else:
+        print(b)
+
+
+
+
+OUTPUT:
+Input
+4
+2 2
+2 3
+3 2
+23 17
+Output
+2
+2
+2
+17
