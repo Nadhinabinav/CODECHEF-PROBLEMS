@@ -1,0 +1,21 @@
+14.Who is taller
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    x,y=map(int,input().split())
+    if(x>=y):
+        print("A")
+    else:
+        print("B")
+
+OUTPUT:
+
+ Input
+2
+150 160
+160 150
+Output
+B
+A
