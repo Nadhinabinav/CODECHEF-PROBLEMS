@@ -1,0 +1,24 @@
+16.Tour of King
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    N,M=map(int,input().split())
+    tot=((N*5)+(M*7))
+    print(tot)
+    
+
+OUTPUT:
+
+Input
+4
+4 8
+2 13
+14 5
+8 8
+Output
+76
+101
+105
+96
