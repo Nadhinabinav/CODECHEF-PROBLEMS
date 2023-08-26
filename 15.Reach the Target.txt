@@ -1,0 +1,24 @@
+15.Reach the Target
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    x,y=map(int,input().split())
+    z=(x-y)
+    print(z)
+
+
+OUTPUT:
+
+Input
+4
+200 50
+100 99
+130 97
+53 51
+Output
+150
+1
+33
+2
