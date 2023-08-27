@@ -1,0 +1,14 @@
+18.  2000
+
+CODE:
+
+N=int(input())
+z=4*N
+print(z)
+
+OUTPUT:
+
+Input
+4
+Output
+16
