@@ -1,0 +1,21 @@
+17.Best of Two
+
+CODE:
+
+t=int(input())
+for i in range(t):
+    X,Y=map(int,input().split())
+    print(max(X,Y))
+OUTPUT:
+
+Input
+4
+40 60
+67 55
+50 50
+1 100
+Output
+60
+67
+50
+100
