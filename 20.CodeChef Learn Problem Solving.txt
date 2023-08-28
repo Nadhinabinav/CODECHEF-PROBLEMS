@@ -1,0 +1,13 @@
+20.CodeChef Learn Problem Solving
+CODE:
+
+N=int(input())
+z=2*N
+print(z)
+
+OUTPUT:
+
+Input
+4
+Output
+8
