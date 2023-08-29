@@ -1,0 +1,25 @@
+22.Battery Health
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    x=int(input())
+    if(x>=80):
+        print("YES")
+    else:
+        print("NO")
+
+OUTPUT:
+
+Input
+4
+97
+42
+80
+10
+Output
+YES
+NO
+YES
+NO
