@@ -1,0 +1,22 @@
+21.Donation Drive
+
+CODE:
+T= int(input())
+for i in range(T):
+    N,X=map(int,input().split())
+    z=N-X
+    print(z)
+
+OUTPUT:
+
+Input
+4
+5 2
+3 3
+5 4
+7 5
+Output
+3
+0
+1
+2
