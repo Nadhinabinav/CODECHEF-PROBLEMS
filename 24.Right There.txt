@@ -1,0 +1,26 @@
+24.Right There
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    N,X=map(int,input().split())
+    if(X>=N):
+        print("YES")
+    else:
+        print("NO")
+
+
+OUTPUT:
+
+Input
+4
+2 5
+4 3
+6 6
+10 9
+Output
+YES
+NO
+YES
+NO
