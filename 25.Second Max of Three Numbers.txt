@@ -1,0 +1,19 @@
+25.Second Max of Three Numbers
+
+CODE:
+
+for T in range(int(input())):
+    a=list(map(int,input().split()))
+    a.sort()
+    print(a[-2])
+    
+OUTPUT:
+Input
+3
+1 2 3
+10 15 5
+100 999 500
+Output
+2
+10
+500
