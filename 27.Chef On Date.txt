@@ -1,0 +1,25 @@
+27.Chef On Date
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    x,y=map(int,input().split())
+    if(x>=y):
+        print("YES")
+    else:
+        print("NO")
+
+OUTPUT:
+
+Input
+4
+1 1
+1 2
+2 1
+50 100
+Output
+YES
+NO
+YES
+NO
