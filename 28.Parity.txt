@@ -1,0 +1,25 @@
+28.Parity
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    N=int(input())
+    if(N%2==0):
+        print("YES")
+    else:
+        print("NO")
+
+OUTPUT:
+
+Input
+4
+10
+4
+3
+2
+Output
+YES
+YES
+NO
+YES
