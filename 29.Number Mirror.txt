@@ -1,0 +1,13 @@
+29.Number Mirror
+
+CODE:
+
+N=int(input())
+print(N)
+
+OUTPUT:
+
+Input
+123
+Output
+123
