@@ -1,0 +1,26 @@
+32.Just One More Episode
+
+CODE:
+
+
+T=int(input())
+for i in range(T):
+    x=int(input())
+    if(x>24):
+        print("YES")
+    else:
+        print("NO")
+
+OUTPUT:
+
+Input
+4
+30
+23
+60
+24
+Output
+NO
+YES
+NO
+NO
