@@ -1,0 +1,23 @@
+31.Battery Low
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    x=int(input())
+    if(x<=15):
+        print("YES")
+    else:
+        print("NO")
+
+OUTPUT:
+
+Input
+3
+15
+3
+65
+Output
+YES
+YES
+NO
