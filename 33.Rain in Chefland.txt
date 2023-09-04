@@ -1,0 +1,28 @@
+33.Rain in Chefland
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    x=int(input())
+    if(x<3):
+        print("LIGHT")
+    elif(x>=3 and x<7):
+        print("MODERATE")
+    elif(x>=7):
+        print("HEAVY")
+
+
+OUTPUT:
+
+Input
+4
+1
+20
+3
+7
+Output
+LIGHT
+HEAVY
+MODERATE
+HEAVY
