@@ -1,0 +1,23 @@
+37.Chess Time
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    N=int(input())
+    z=(3*N)
+    print(z)
+
+OUTPUT:
+
+Input
+4
+1
+10
+7
+3
+Output
+3
+30
+21
+9
