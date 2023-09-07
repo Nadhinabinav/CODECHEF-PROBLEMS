@@ -1,0 +1,23 @@
+40.Podium Finish
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    A,B=map(int,input().split())
+    z=(A+B)
+    print(z)
+
+OUTPUT:
+
+Input
+4
+1 1
+2 5
+3 2
+5 6
+Output
+2
+7
+5
+11
