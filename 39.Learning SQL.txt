@@ -1,0 +1,15 @@
+39.Learning SQL
+
+CODE:
+
+
+R,C,E=map(int,input().split())
+z= (R+E)*C
+print(z)
+
+OUTPUT:
+
+Input
+5 2 1
+Output
+12
