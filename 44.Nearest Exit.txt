@@ -1,0 +1,29 @@
+44.Nearest Exit
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    x=int(input())
+    if(x<=50):
+        print("LEFT")
+    else:
+        print("RIGHT")
+
+OUTPUT:
+
+Input
+6
+1
+50
+100
+30
+51
+73
+Output
+LEFT
+LEFT
+RIGHT
+LEFT
+RIGHT
+RIGHT
