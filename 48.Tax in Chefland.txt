@@ -1,0 +1,26 @@
+48.Tax in Chefland
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    x=int(input())
+    if(x>100):
+        print(x-10)
+    else:
+        print(x)
+
+
+OUTPUT:
+
+INPUT
+4
+5
+105
+101
+100
+OUTPUT
+5
+95
+91
+100
