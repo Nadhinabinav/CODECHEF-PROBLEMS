@@ -1,0 +1,28 @@
+49.Audible Range
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    x=int(input())
+    if(x>=67 and x<=45000):
+        print("YES")
+    else:
+        print("NO")
+
+
+OUTPUT:
+
+Input
+5
+42
+67
+402
+45000
+45005
+Output
+NO
+YES
+YES
+YES
+NO
