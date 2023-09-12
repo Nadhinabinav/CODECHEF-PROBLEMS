@@ -1,0 +1,30 @@
+50.Reach on Time
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    x=int(input())
+    if(x>=30):
+        print("YES")
+    else:
+        print("NO")
+
+
+OUTPUT:
+
+Input
+6
+30
+60
+14
+29
+31
+42
+Output
+YES
+YES
+NO
+NO
+YES
+YES
