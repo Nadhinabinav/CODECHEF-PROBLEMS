@@ -1,0 +1,23 @@
+52.Kitchen Timings
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    x,y=map(int,input().split())
+    print(y-x)
+
+
+OUTPUT:
+
+Input
+4
+1 2
+3 7
+9 11
+2 10
+Output
+1
+4
+2
+8
