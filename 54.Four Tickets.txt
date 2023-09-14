@@ -1,0 +1,26 @@
+54.Four Tickets
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    x=int(input())
+    if((x*4)<=1000):
+        print("YES")
+    else:
+        print("NO")
+
+
+OUTPUT:
+
+Input
+4
+100
+500
+250
+1000
+Output
+YES
+NO
+YES
+NO
