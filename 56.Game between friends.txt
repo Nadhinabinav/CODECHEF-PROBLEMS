@@ -1,0 +1,34 @@
+56.Game between friends
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    A,B,C,D=map(int,input().split())
+    if(A<B):
+        A=A+C
+    else:
+        B=B+C
+        
+    if(A<B):
+        A=A+D
+    else:
+        B=B+D
+        
+    if(A<B):
+        print("S")
+    else:
+        print("N")
+
+
+OUTPUT:
+
+Input
+3
+2 3 4 5
+3 3 3 3
+2 3 1 2
+Output
+S
+N
+S
