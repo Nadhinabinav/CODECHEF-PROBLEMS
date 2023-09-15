@@ -1,0 +1,25 @@
+55.Chairs Requirement
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    x,y=map(int,input().split())
+    if(y>x):
+        print("0")
+    else:
+        print(x-y)
+
+OUTPUT:
+
+Input
+4
+20 14
+41 41
+35 0
+50 100
+Output
+6
+0
+35
+0
