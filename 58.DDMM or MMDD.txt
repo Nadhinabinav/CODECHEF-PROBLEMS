@@ -1,0 +1,32 @@
+58.DDMM or MMDD
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    d  = list(map(int,input().split('/')))
+    
+    if d[0]<=12 and d[1]<=12 :
+        print("BOTH")
+    
+    elif d[0]<=12 and d[1]>12 :
+        print("MM/DD/YYYY")
+    
+    elif d[0]>12 and d[1]<=12 :
+        print("DD/MM/YYYY")
+    
+
+
+OUTPUT:
+
+Input
+4
+21/05/2001
+10/15/2069
+05/11/1999
+29/02/2024
+Output
+DD/MM/YYYY
+MM/DD/YYYY
+BOTH
+DD/MM/YYYY
