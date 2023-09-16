@@ -1,0 +1,27 @@
+
+57.Keplers Law
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    T1,T2,R1,R2=map(int,input().split())
+    x=(T1*T1)/(R1*R1*R1)
+    y=(T2*T2)/(R2*R2*R2)
+    if x == y:
+        print("Yes")
+    else:
+        print("No")
+
+
+OUTPUT:
+
+Input
+3
+1 1 1 1
+1 2 3 4
+1 8 2 8
+Output
+Yes
+No
+Yes
