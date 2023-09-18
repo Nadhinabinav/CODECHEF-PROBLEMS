@@ -1,0 +1,27 @@
+62.Determine the Score
+
+CODE:
+
+
+T=int(input())
+for i in range(T):
+    x,n=map(int,input().split())
+    z=x//10
+    print(z*n)
+    
+    
+    
+    
+OUTPUT:
+
+Input
+4
+10 3
+100 10
+130 4
+70 0
+Output
+3
+100
+52
+0
