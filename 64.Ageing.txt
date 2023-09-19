@@ -1,0 +1,23 @@
+64.Ageing
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    x=int(input())
+    z=x-10
+    print(z)
+
+OUTPUT:
+
+Input
+4
+25
+36
+50
+44
+Output
+15
+26
+40
+34
