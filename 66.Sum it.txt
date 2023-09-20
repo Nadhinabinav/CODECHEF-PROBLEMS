@@ -1,0 +1,24 @@
+66.Sum it
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    a,b,c=map(int,input().split())
+    if((a+b)==c):
+        print("YES")
+    else:
+        print("NO")
+
+
+OUTPUT:
+
+Input
+3
+1 2 3
+4 5 9
+2 3 6
+Output
+YES
+YES
+NO
