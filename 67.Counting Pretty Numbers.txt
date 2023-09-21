@@ -1,0 +1,23 @@
+67.Counting Pretty Numbers
+
+
+CODE:
+
+t=int(input())
+for i in range(t):
+    c=0
+    L,R=map(int,input().split())
+    for j in range(L,R+1):
+        if j%10 in (2,3,9):
+            c+=1
+    print(c)
+
+OUTPUT:
+
+Input
+2
+1 10
+11 33
+Output
+3
+8
