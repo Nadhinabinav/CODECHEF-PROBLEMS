@@ -1,0 +1,28 @@
+70.Reach Home
+
+
+CODE:
+
+t=int(input())
+for i in range(t):
+    x,y=map(int,input().split())
+    z=x*5
+    if(z>=y):
+        print("YES")
+    else:
+        print("NO")
+
+
+OUTPUT:
+
+Input
+4
+2 10
+3 17
+4 2
+6 45
+Output
+YES
+NO
+YES
+NO
