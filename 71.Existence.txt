@@ -1,0 +1,32 @@
+71.Existence
+
+CODE:
+
+for i in range(int(input())):
+    x,y=map(int,input().split())
+    r=pow(x,4)+4*y**2
+    d=4*x**2*y
+    if(r==d):
+        print("YES")
+    else:
+        print("NO")
+
+
+
+
+OUTPUT:
+
+Input
+5
+2 2
+4 4
+3 6
+8 32
+200000000 20000000000000000
+
+Output
+YES
+NO
+NO
+YES
+YES
