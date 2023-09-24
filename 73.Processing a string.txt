@@ -1,0 +1,21 @@
+73.Processing a string
+
+
+CODE:
+
+for j in range(int(input())):
+    st=input()
+    s=0
+    for i in st:
+        if i in '123456789':
+            s+=int(i)
+    print(s)
+
+
+OUTPUT:
+
+Input
+1
+ab1231da
+Output
+7
