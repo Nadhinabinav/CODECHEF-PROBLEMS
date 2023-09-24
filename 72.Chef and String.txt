@@ -1,0 +1,22 @@
+72.Chef and String
+
+CODE:
+
+for i in range(int(input())):
+    s=input()
+    b=s.count("xy")
+    c=s.replace("xy","")
+    d=c.count("yx")
+    print((b+d))
+
+OUTPUT:
+
+Input
+3
+xy
+xyxxy
+yy
+Output
+1
+2
+0
