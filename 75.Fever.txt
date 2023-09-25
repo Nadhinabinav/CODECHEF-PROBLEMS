@@ -1,0 +1,22 @@
+75.Fever
+
+CODE:
+
+for i in range(int(input())):
+    x=int(input())
+    if(x>98):
+        print("YES")
+    else:
+        print("NO")
+
+OUTPUT:
+
+Input
+3
+98
+100
+96
+Output
+NO
+YES
+NO
