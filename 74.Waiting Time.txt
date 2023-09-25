@@ -1,0 +1,23 @@
+74.Waiting Time
+
+
+CODE:
+
+for i in range(int(input())):
+    K,x=map(int,input().split())
+    z=K*7
+    print(z-x)
+
+OUTPUT:
+
+Input
+4
+1 5
+1 6
+1 1
+1 2
+Output
+2
+1
+6
+5
