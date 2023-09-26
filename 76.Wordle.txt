@@ -1,0 +1,31 @@
+76.Wordle
+
+CODE:
+
+for i in range(int(input())):
+    s=input()
+    t=input()
+    a=''
+    for j in range(len(s)):
+        if(s[j]!=t[j]):
+            a+='B'
+        else:
+            a+='G'
+    print(a)
+
+OUTPUT:
+
+Input
+3
+ABCDE
+EDCBA
+ROUND
+RINGS
+START
+STUNT
+
+Output
+
+BBGBB
+GBBBB
+GGBBG
