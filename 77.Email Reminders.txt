@@ -1,0 +1,17 @@
+77.Email Reminders
+
+
+CODE:
+
+u,n=list(map(int,input().split()))
+z=u-n
+print(z)
+
+OUTPUT:
+
+Input
+
+100 7
+Output
+
+93
