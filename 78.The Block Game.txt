@@ -1,0 +1,26 @@
+78.The Block Game
+
+
+CODE:
+
+def reverse_string(srt):
+    srt1=srt[::-1]
+    return srt1
+for i in range(int(input())):
+    srt=input()
+    if(srt == reverse_string(srt)):
+        print("wins")
+    else:
+        print("loses")
+
+OUTPUT:
+
+Input
+3
+331
+666
+343
+Output
+loses
+wins
+wins
