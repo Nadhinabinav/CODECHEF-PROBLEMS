@@ -1,0 +1,28 @@
+81.Tasty Decisions
+
+CODE:
+
+for i in range(int(input())):
+    x,y=list(map(int,input().split()))
+    z=2*x
+    w=5*y
+    if(z>w):
+        print("chocolate")
+    elif(z==w):
+        print("Either")
+    else:
+        print("Candy")
+
+OUTPUT:
+
+Input
+4
+5 1
+5 2
+5 3
+3 10
+Output
+chocolate
+Either
+Candy
+Candy
