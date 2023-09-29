@@ -1,0 +1,25 @@
+82.Chef gives Party
+
+CODE:
+
+for i in range(int(input())):
+    n,x,k=list(map(int,input().split()))
+    if((n*x)<=k):
+        print("YES")
+    else:
+        print("NO")
+
+
+OUTPUT:
+
+Input
+4
+5 10 70
+5 10 40
+10 40 400
+14 14 150
+Output
+YES
+NO
+YES
+NO
