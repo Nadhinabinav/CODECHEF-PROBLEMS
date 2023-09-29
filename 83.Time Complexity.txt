@@ -1,0 +1,26 @@
+83.Time Complexity
+
+CODE:
+
+for i in range(int(input())):
+    a,b=list(map(int,input().split()))
+    if(a<=b):
+        print("NO")
+    else:
+        print("YES")
+
+
+output:
+
+Input
+4
+9 9
+15 7
+10 19
+21 20
+
+Output
+NO
+YES
+NO
+YES
