@@ -1,0 +1,23 @@
+86.Discount
+
+CODE:
+
+for i in range(int(input())):
+    x=int(input())
+    print(100-x)
+
+
+OUTPUT:
+
+Input
+4
+5
+9
+11
+21
+
+Output
+95
+91
+89
+79
