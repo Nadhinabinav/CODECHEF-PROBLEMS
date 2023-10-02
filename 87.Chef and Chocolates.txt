@@ -1,0 +1,24 @@
+87.Chef and Chocolates
+
+CODE:
+
+for i in range(int(input())):
+    x=list(map(int,input().split()))
+    y=((x[0]*5)+(x[1]*10))
+    z=(y//x[2])
+    print(z)
+
+
+OUTPUT:
+
+Input
+4
+10 10 10
+3 1 8
+8 1 3
+4 4 1000
+Output
+15
+3
+16
+0
