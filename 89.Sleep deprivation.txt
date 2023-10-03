@@ -1,0 +1,22 @@
+89.Sleep deprivation
+
+CODE:
+
+for i in range(int(input())):
+    x=int(input())
+    if(x>=7):
+        print("NO")
+    else:
+        print("YES")
+
+OUTPUT:
+
+Input
+3
+4
+7
+10
+Output
+YES
+NO
+NO
