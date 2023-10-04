@@ -1,0 +1,19 @@
+90.Chef and Chapters
+
+CODE:
+
+for i in range(int(input())):
+    x=list(map(int,input().split()))
+    print(x[0]*x[1]*x[2])
+
+OUTPUT:
+
+Input
+3
+1 1 1
+2 1 2
+1 2 3
+Output
+1
+4
+6
