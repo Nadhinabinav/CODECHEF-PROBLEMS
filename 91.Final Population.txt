@@ -1,0 +1,22 @@
+91.Final Population
+
+CODE:
+
+for i in range(int(input())):
+    x=list(map(int,input().split()))
+    print((x[0]+x[2])-x[1])
+
+
+OUTPUT:
+
+Input
+4
+3 1 2
+2 2 2
+4 1 8
+10 1 10
+Output
+4
+2
+11
+19
