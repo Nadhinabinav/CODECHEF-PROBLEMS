@@ -1,0 +1,22 @@
+92.Lunchtime
+
+CODE:
+
+for i in range(int(input())):
+    x=int(input())
+    if(x<=4):
+        print("YES")
+    else:
+        print("NO")
+
+OUTPUT:
+
+Input
+3
+1
+7
+3
+Output
+YES
+NO
+YES
