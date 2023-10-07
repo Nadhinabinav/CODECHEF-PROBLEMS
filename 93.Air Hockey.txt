@@ -1,0 +1,23 @@
+93.Air Hockey
+
+CODE:
+
+for i in range(int(input())):
+    a=list(map(int,input().split()))
+    b=max(a)
+    print(7-b)
+
+
+OUTPUT:
+
+Input
+4
+0 0
+2 5
+5 2
+4 3
+Output
+7
+2
+2
+3
