@@ -1,0 +1,26 @@
+94.Car Trip
+
+CODE:
+
+for i in range(int(input())):
+    x=int(input())
+    if(x>=300):
+        print(x*10)
+    else:
+        print(300*10)
+
+OUTPUT:
+
+Input
+5
+800
+3
+299
+301
+300
+Output
+8000
+3000
+3000
+3010
+3000
