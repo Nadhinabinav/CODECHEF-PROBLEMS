@@ -1,0 +1,25 @@
+95.Six Friends
+
+CODE:
+
+for i in range(int(input())):
+    x,y=map(int,input().split())
+    if((y*2)>=(x*3)):
+        print(x*3)
+    else:
+        print(y*2)
+        
+
+
+OUTPUT:
+
+
+Input
+3
+10 15
+6 8
+4 8
+Output
+30
+16
+12
