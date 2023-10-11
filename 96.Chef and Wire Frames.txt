@@ -1,0 +1,21 @@
+96.Chef and Wire Frames
+
+CODE:
+
+
+for i in range(int(input())):
+    n,m,x=map(int,input().split())
+    print(((n*2)+(m*2))*x)
+
+
+OUTPUT:
+
+Input
+3
+10 10 10
+23 3 12
+1000 1000 1000
+Output
+400
+624
+4000000
