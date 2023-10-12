@@ -1,0 +1,22 @@
+97.Minimum Coins
+
+CODE:
+
+for i in range(int(input())):
+    x=int(input())
+    print(x%10)
+
+
+OUTPUT:
+
+Input
+4
+53
+100
+9
+11
+Output
+3
+0
+9
+1
