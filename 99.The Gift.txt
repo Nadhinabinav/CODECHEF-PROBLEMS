@@ -1,0 +1,17 @@
+99.The Gift
+
+
+CODE:
+
+x,m,n=map(int,input().split())
+if(x+n)>=m:
+    print("YES")
+else:
+    print("NO")
+
+OUTPUT:
+
+Input
+5 10 15
+Output
+YES
