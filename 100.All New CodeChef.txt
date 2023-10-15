@@ -1,0 +1,29 @@
+100.All New CodeChef
+
+CODE:
+
+x,y=map(int,input().split())
+if(x>y):
+    print("New")
+elif(x==y):
+    print("Same")
+else:
+    print("old")
+
+
+OUTPUT:1
+
+Input
+255 230
+Output
+old
+
+OUTPUT:2
+
+Input
+
+255 230
+
+Output
+New
+
