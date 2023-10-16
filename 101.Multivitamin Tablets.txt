@@ -1,0 +1,26 @@
+101.Multivitamin Tablets
+
+CODE:
+
+for i in range(int(input())):
+    x,y=map(int,input().split())
+    z=x*3
+    if(y>=z):
+        print("YES")
+    else:
+        print("NO")
+
+
+OUTPUT:
+
+Input
+4
+1 10
+12 0
+10 29
+10 30
+Output
+YES
+NO
+NO
+YES
