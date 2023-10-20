@@ -1,0 +1,24 @@
+105.Course Registration
+
+CODE:
+
+for i in range(int(input())):
+    n,m,k=map(int,input().split())
+    z=m-k
+    if(z>=n):
+        print("YES")
+    else:
+        print("NO")
+
+
+OUTPUT:
+
+Input
+3
+2 50 27
+5 40 38
+100 100 0
+Output
+YES
+NO
+YES
