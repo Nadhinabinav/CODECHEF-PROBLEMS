@@ -1,0 +1,23 @@
+106.Can Chef
+
+CODE:
+
+for i in range(int(input())):
+    x,y=map(int,input().split())
+    z=2*y 
+    if (x*15)>=z:
+        print("YES")
+    else:
+        print("NO")
+
+OUTPUT:
+
+Input
+3
+10 50
+15 200
+3 20
+Output
+YES
+NO
+YES
