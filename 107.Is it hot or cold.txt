@@ -1,0 +1,22 @@
+107.Is it hot or cold
+
+CODE:
+
+for i in range(int(input())):
+    c=int(input())
+    if c>20:
+        print("HOT")
+    else:
+        print("COLD")
+
+
+OUTPUT:
+
+
+Input
+2
+21
+16
+Output
+HOT
+COLD
