@@ -1,0 +1,14 @@
+108.Lucky Seven
+
+CODE:
+
+s=input()
+print(s[6])
+
+
+OUTPUT:
+
+Input
+proceeding
+Output
+d
