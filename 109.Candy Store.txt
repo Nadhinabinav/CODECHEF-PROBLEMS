@@ -1,0 +1,25 @@
+109.Candy Store
+
+CODE:
+for i in range(int(input())):
+    x,y=map(int,input().split())
+    if(y<x):
+        print(y*1)
+    elif(y==x):
+        print(y*1)
+    elif(y>x):
+        print(((y-x)*2)+x)
+
+OUTPUT:
+
+Input
+4
+3 1
+5 5
+4 7
+2 3
+Output
+1
+5
+10
+4
