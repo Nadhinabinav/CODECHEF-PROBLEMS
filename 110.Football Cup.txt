@@ -1,0 +1,26 @@
+110.Football Cup
+
+CODE:
+
+for _ in range(int(input())):
+    x,y=list(map(int,input().split()))
+    if(x==0 and y==0):
+        print("NO")
+    elif(x==y):
+        print("YES")
+    else:
+        print("NO")
+
+OUTPUT:
+
+Input
+4
+1 1
+0 1
+0 0
+2 2
+Output
+YES
+NO
+NO
+YES
