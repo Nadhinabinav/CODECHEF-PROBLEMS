@@ -1,0 +1,32 @@
+111.7 Rings
+
+CODE:
+
+
+for i in range(int(input())):
+    x,y=map(int,input().split())
+    z=x*y
+    d=len(str(x*y))
+    if(d==5):
+        print("YES")
+    elif(z==00000):
+        print("NO")
+    else:
+        print("NO")
+    
+    
+
+
+OUTPUT:
+
+Input
+4
+25 785
+402 11
+100 100
+333 333
+Output
+YES
+NO
+YES
+NO
