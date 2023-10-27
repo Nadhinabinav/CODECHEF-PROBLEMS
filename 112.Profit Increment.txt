@@ -1,0 +1,23 @@
+112.Profit Increment
+
+CODE:
+
+for i in range(int(input())):
+    x,y=map(int,input().split())
+    z=x-y
+    t=(x//10)+x
+    print(t-z)
+
+OUTPUT:
+
+Input
+4
+100 10
+200 5
+500 10
+100 7
+Output
+20
+25
+60
+17
