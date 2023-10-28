@@ -1,0 +1,18 @@
+113.Fill the Bucket
+
+CODE:
+
+for i in range(int(input())):
+    k,x=map(int,input().split())
+    print(k-x)
+
+
+OUTPUT:
+
+Input
+2
+5 4
+15 6
+Output
+1
+9
