@@ -1,0 +1,24 @@
+114.Parliament
+
+CODE:
+
+for i in range(int(input())):
+    x,n=map(int,input().split())
+    if(n>=(x/2)):
+        print("YES")
+    else:
+        print("NO")
+    
+OUTPUT:
+
+Input
+4
+12 6
+9 4
+9 5
+12 0
+Output
+YES
+NO
+YES
+NO
