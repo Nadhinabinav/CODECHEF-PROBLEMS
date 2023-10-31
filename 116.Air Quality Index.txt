@@ -1,0 +1,22 @@
+116.Air Quality Index
+
+CODE:
+
+
+x=int(input())
+if(x>=100):
+    print("NO")
+else:
+    print("YES")
+
+OUTPUT:
+
+Input
+50
+Output
+YES
+
+Input
+145
+Output
+NO
