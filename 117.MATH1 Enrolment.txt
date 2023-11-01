@@ -1,0 +1,24 @@
+117.MATH1 Enrolment
+
+CODE:
+
+for i in range(int(input())):
+    x,y=map(int,input().split())
+    if(x>=y):
+        print("0")
+    else:
+        print(y-x)
+
+OUTPUT:
+
+Input
+4
+1 1
+12 34
+50 49
+49 50
+Output
+0
+22
+0
+1
