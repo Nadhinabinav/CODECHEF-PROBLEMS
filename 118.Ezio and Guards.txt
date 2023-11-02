@@ -1,0 +1,26 @@
+118.Ezio and Guards
+
+
+CODE:
+
+for i in range(int(input())):
+    X,Y = map(int,input().split())
+    if X<Y:
+        print("No")
+    else:
+        print("Yes")
+
+
+
+OUTPUT:
+
+Input
+3
+5 7
+6 6
+9 1
+Output
+
+NO
+YES
+YES
