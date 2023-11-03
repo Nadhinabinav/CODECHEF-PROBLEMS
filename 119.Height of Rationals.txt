@@ -1,0 +1,23 @@
+119.Height of Rationals
+
+
+CODE:
+
+a=list(map(int,input().split()))
+print(max(a))
+
+
+OUTPUT: 1
+
+Input
+3 19
+Output
+19
+
+OUTPUT :2
+
+Input
+
+27 4
+Output
+27
