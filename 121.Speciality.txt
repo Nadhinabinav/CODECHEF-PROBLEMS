@@ -1,0 +1,27 @@
+121.Speciality
+
+CODE:
+
+for i in range(int(input())):
+    x,y,z=map(int,input().split())
+    if(x>y and x>z):
+        print("Setter")
+    elif(y>x and y>z):
+        print("Tester")
+    else:
+        print("Editorialist")
+
+OUTPUT:
+
+Input
+4
+5 3 2
+1 2 4
+2 5 1
+9 4 5
+Output
+
+Setter
+Editorialist
+Tester
+Setter
