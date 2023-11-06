@@ -1,0 +1,23 @@
+122.Maximum Submissions
+
+CODE:
+
+for i in range(int(input())):
+    x=int(input())
+    x*=60
+    print(x//30)
+
+
+OUTPUT:
+
+Input
+4
+1
+2
+3
+4
+Output
+2
+4
+6
+8
