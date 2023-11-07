@@ -1,0 +1,23 @@
+123.Expiring Bread
+
+CODE:
+
+for i in range(int(input())):
+    n,m,x=map(int,input().split())
+    z=m*x 
+    if(z>=n):
+        print("YES")
+    else:
+        print("NO")
+
+OUTPUT:
+
+Input
+3
+100 100 1
+9 2 5
+19 6 3
+Output
+YES
+YES
+NO
