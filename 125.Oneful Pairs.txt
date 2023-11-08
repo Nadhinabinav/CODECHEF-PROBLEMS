@@ -1,0 +1,26 @@
+125.Oneful Pairs
+
+CODE:
+
+a,b=map(int,input().split())
+c=a+b+(a*b)
+if(c==111):
+    print("YES")
+else:
+    print("NO")
+
+
+OUTPUT:1
+
+Input
+1 55
+Output
+YES
+
+OUTPUT:2
+
+Input
+
+1 56
+Output
+No
