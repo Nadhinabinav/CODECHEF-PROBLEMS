@@ -1,0 +1,28 @@
+126.Pass the Exam
+
+CODE:
+
+for i in range(int(input())):
+    a,b,c=map(int,input().split())
+    d=a+b+c
+    if(a>=10 and b>=10 and c>=10 and d>=100):
+        print("PASS")
+    else:
+        print("FAIL")
+
+
+OUTPUT:
+
+Input
+5
+9 100 100
+30 40 50
+30 20 40
+0 98 8
+90 80 80
+Output
+FAIL
+PASS
+FAIL
+FAIL
+PASS
