@@ -1,0 +1,27 @@
+127.TV Discount
+
+CODE:
+
+for i in range(int(input())):
+    a,b,c,d=map(int,input().split())
+    x=a-c
+    y=b-d
+    if(x>y):
+        print("SECOND")
+    elif(x<y):
+        print("FIRST")
+    elif(x==y):
+        print("ANY")
+
+
+OUTPUT:
+
+Input
+3
+85 75 35 20
+100 99 0 0
+30 40 0 10
+Output
+FIRST
+SECOND
+ANY
