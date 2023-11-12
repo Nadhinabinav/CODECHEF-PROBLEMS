@@ -1,0 +1,25 @@
+128.Broken Phone
+
+CODE:
+
+
+for i in range(int(input())):
+    x,y=map(int,input().split())
+    if(x>y):
+        print("NEW PHONE")
+    elif(x<y):
+        print("REPAIR")
+    elif(x==y):
+        print("ANY")
+
+OUTPUT:
+
+Input
+3
+100 1000
+10000 5000
+3000 3000
+Output
+ANY
+NEW PHONE
+ANY
