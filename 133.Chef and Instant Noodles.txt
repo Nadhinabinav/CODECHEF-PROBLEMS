@@ -1,0 +1,14 @@
+133.Chef and Instant Noodles
+
+CODE:
+
+x,y=map(int,input().split())
+print(x*y)
+
+
+OUTPUT:
+
+Input
+3 7
+Output
+21
