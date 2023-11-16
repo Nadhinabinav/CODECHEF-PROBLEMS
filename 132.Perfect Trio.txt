@@ -1,0 +1,28 @@
+132.Perfect Trio
+
+CODE:
+
+for i in range(int(input())):
+    a,b,c=map(int,input().split())
+    if(a+b==c):
+        print("YES")
+    elif(b+c==a):
+        print("YES")
+    elif(a+c==b):
+        print("YES")
+    else:
+        print("NO")
+
+OUTPUT:
+
+Input
+4
+10 20 30
+23 51 17
+44 21 23
+30 30 30
+Output
+YES
+NO
+YES
+NO
