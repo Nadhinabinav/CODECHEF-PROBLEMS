@@ -1,0 +1,21 @@
+135.Off By One
+
+CODE:
+
+a,b=map(int,input().split())
+c = str(a+b)
+print(c+'1')
+
+
+OUTPUT1:
+
+Input
+3 5
+Output
+81
+
+OUTPUT 2:
+Input
+4 12
+Output
+161
