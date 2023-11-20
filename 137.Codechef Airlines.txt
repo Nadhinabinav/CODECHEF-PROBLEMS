@@ -1,0 +1,26 @@
+137.Codechef Airlines
+
+CODE:
+
+for i in range(int(input())):
+    x,y,z=map(int,input().split())
+    a=x*10
+    if(y>a):
+        print(a*z)
+    else:
+        print(y*z)
+
+
+OUTPUT:
+
+Input
+4
+2 15 10
+1 10 1
+5 60 100
+1 11 7
+Output
+150
+10
+5000
+70
