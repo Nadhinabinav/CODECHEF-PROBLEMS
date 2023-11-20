@@ -1,0 +1,35 @@
+138.The Mango Truck
+
+CODE:
+
+for i in range(int(input())):
+    X,Y,Z = map(int,input().split())
+    count = 0
+    
+    for i in range(Z):
+        if i*X+Y>Z:
+            count=i
+            break
+        elif(i*X+Y==Z):
+            count=0
+    if count==0:
+        print("0")
+    else:
+        print(count-1)
+            
+        
+            
+
+OUTPUT:
+
+Input
+4
+2 5 11
+4 10 20
+1 1 1
+6 40 90
+Output
+3
+2
+0
+8
