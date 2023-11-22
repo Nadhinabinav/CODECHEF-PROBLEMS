@@ -1,0 +1,28 @@
+140.Chef and Gym
+
+CODE:
+
+for i in range(int(input())):
+    x,y,z=map(int,input().split())
+    d=x+y 
+    if(d<=z):
+        print("2")
+    elif(z<d and z<x):
+        print("0")
+    elif(d>z):
+        print("1")
+
+
+OUTPUT:
+
+Input
+4
+1 2 3
+10 12 13
+23 1 22
+23 1 63
+Output
+2
+1
+0
+2
