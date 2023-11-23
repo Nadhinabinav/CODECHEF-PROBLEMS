@@ -1,0 +1,17 @@
+141.Chef and Chocolates
+
+CODE:
+
+for i in range(int(input())):
+    c,x,y=map(int,input().split())
+    print((c-x)*y)
+
+OUTPUT:
+
+Input
+2
+7 5 5
+10 1 1
+Output
+10
+9
