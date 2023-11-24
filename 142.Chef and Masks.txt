@@ -1,0 +1,29 @@
+142.Chef and Masks
+
+CODE:
+
+for i in range(int(input())):
+    x,y=map(int,input().split())
+    v=x*100
+    w=y*10 
+    if(v>w):
+        print("Cloth")
+    elif(v==w):
+        print("Cloth")
+    else:
+        print("Disposable")
+
+
+OUTPUT:
+
+Input
+4
+10 100
+9 100
+88 99
+1 11
+Output
+Cloth
+Disposable
+Cloth
+Disposable
