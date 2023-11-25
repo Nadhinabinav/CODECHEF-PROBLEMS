@@ -1,0 +1,20 @@
+143.Find Remainder
+
+CODE:
+
+t = int(input())
+for i in range(t):
+    a, b = map(int, input().split())
+    print(a % b)
+
+OUTPUT:
+
+Input
+3 
+1 2
+100 200
+40 15
+Output
+1
+100
+10
