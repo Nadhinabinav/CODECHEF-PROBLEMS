@@ -1,0 +1,23 @@
+144.Bob at the Bank
+
+CODE:
+
+for i in range(int(input())):
+    w,x,y,z=map(int,input().split())
+    r=x-y
+    print(w+r*z)
+        
+        
+
+
+OUTPUT:
+
+Input
+3
+100 11 1 10
+999 25 36 9
+2500 100 125 101
+Output
+200
+900
+-25
