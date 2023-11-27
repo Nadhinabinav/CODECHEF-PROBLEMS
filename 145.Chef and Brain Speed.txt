@@ -1,0 +1,17 @@
+145.Chef and Brain Speed
+ 
+CODE:
+
+x,y=map(int,input().split())
+if(x>=y):
+    print("NO")
+else:
+    print("YES")
+
+
+OUTPUT:
+
+Input
+7 9
+Output
+YES
