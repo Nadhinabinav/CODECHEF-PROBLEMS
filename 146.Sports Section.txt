@@ -1,0 +1,20 @@
+146.Sports Section
+
+
+CODE:
+
+x=int(input())
+if(x==8):
+    print("YES")
+elif(x==9):
+    print("YES")
+elif(x==10):
+    print("YES")
+else:
+    print("NO")
+
+
+Input
+3
+Output
+NO
