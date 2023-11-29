@@ -1,0 +1,22 @@
+147.Biryani classes
+
+CODE:
+
+for i in range(int(input())):
+    X,Y= map(int,input().split())
+    print(X*Y)
+
+OUTPUT:
+
+Input
+
+4
+1 10
+1 15
+2 10
+2 15
+Output
+10
+15
+20
+30
