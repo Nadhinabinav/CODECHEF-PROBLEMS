@@ -1,0 +1,29 @@
+150. 
+Roller Coaster
+
+CODE:
+
+n = int(input())
+
+for i in range(n):
+    X, Y =map(int,input().split())
+    if X>Y:
+        print("yes")
+    elif X==Y:
+        print("yes")
+    else:
+        print("no")
+
+OUTPUT:
+
+Input
+4
+15 20
+50 48
+32 32
+38 39
+Output
+no
+yes
+yes
+no
