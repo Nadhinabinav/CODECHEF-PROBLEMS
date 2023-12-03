@@ -1,0 +1,23 @@
+151.Counting Words
+
+CODE:
+
+
+T=int(input())
+for _ in range(T):
+    N,M=map(int,input().split())
+    print(N*M)
+
+OUTPUT:
+
+Input
+4
+1 1
+4 2
+2 4
+95 42
+Output
+1
+8
+8
+3990
