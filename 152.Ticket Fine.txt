@@ -1,0 +1,26 @@
+152.Ticket Fine
+
+CODE:
+
+for i in range(int(input())):
+    x=list(map(int,input().split()))
+    z=x[1]-x[2]
+    if(z!=0):
+        print(z*x[0])
+    else:
+        print("0")
+
+
+OUTPUT:
+
+Input
+4
+4 1 1
+2 10 7
+8 5 4
+9 7 0
+Output
+0
+6
+8
+63
