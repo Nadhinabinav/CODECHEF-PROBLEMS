@@ -1,0 +1,19 @@
+154.First and Last Digit
+
+CODE:
+
+for i in range(int(input())):
+    s = input()
+    print(int(s[0]) + int(s[len(s) - 1]))
+
+OUTPUT:
+
+Input
+3 
+1234
+124894
+242323
+Output
+5
+5
+5
