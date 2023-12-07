@@ -1,0 +1,30 @@
+155. Good Investment or Not
+
+CODE:
+
+
+T = int(input())
+for tc in range(T):
+    (x, y) = map(int, input().split(' '))
+	
+    if x/y >= 2:
+        print('YES')
+    else:
+        print('NO')
+	
+
+OUTPUT:
+
+Input
+5
+7 4
+6 3
+2 4
+10 10
+20 1
+Output
+NO
+YES
+NO
+NO
+YES
