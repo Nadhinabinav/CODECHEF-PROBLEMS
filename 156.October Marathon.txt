@@ -1,0 +1,33 @@
+156.October Marathon
+
+CODE:
+
+x=int(input())
+if(x<3):
+    print("GOLD")
+elif(x>=3 and x<6):
+    print("SILVER")
+else:
+    print("BRONZE")
+
+
+OUTPUT:1
+
+Input
+2
+Output
+GOLD
+
+OUTPUT:2
+
+Input
+5
+Output
+SILVER
+
+OUTPUT:3
+
+Input
+6
+Output
+BRONZE
