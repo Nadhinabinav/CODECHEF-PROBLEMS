@@ -1,0 +1,23 @@
+162.The Cooler Dilemma 1
+
+CODE:
+
+for i in range(int(input())):
+    x,y,z=map(int,input().split())
+    if(x*z)<y:
+        print("YES")
+    else:
+        print("NO")
+
+
+OUTPUT:
+
+Input
+3
+5 10 1
+5 10 2
+5 10 3
+Output
+YES
+NO
+NO
