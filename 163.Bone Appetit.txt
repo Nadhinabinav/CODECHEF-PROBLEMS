@@ -1,0 +1,19 @@
+163.Bone Appetit
+
+CODE:
+
+N,M=map(int,input().split())
+X,Y=map(int,input().split())
+bones=N*X
+blood=M*Y
+TOTAL=bones+blood
+print(TOTAL)
+
+OUTPUT:
+
+
+Input
+4 2
+5 6
+Output
+32
