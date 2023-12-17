@@ -1,0 +1,20 @@
+164.Chef in his Office
+
+CODE:
+
+for i in range(int(input())):
+    x,y=map(int,input().split())
+    z=(x*4)+y 
+    print(z)
+
+OUTPUT:
+
+Input
+3
+10 5
+12 2
+8 7
+Output
+45
+50
+39
