@@ -1,0 +1,20 @@
+165.Shopping Change
+
+CODE:
+
+for i in range(int(input())):
+    x=int(input())
+    print(100-x)
+
+
+OUTPUT:
+
+Input
+3
+1
+25
+100
+Output
+99
+75
+0
