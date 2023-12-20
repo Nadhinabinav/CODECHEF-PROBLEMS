@@ -1,0 +1,14 @@
+168.Clear Day
+
+CODE:
+
+x,y=map(int,input().split())
+print(7-(x+y))
+
+
+OUTPUT:
+
+Input
+2 3
+Output
+2
