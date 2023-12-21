@@ -1,0 +1,24 @@
+169.Pending Assignments
+
+CODE:
+
+for i in range(int(input())):
+    x,y,z=map(int,input().split())
+    a=z*1440
+    if((x*y)<=a):
+        print("YES")
+    else:
+        print("NO")
+    
+
+OUTPUT:
+
+Input
+3
+5 5 5
+50 80 2
+20 72 1
+Output
+YES
+NO
+YES
