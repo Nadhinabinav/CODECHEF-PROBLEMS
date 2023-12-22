@@ -1,0 +1,21 @@
+170.CRED Coins
+
+CODE:
+
+for i in range(int(input())):
+    x,y=map(int,input().split())
+    z=x*y 
+    p=z//100
+    print(p)
+
+OUTPUT:
+
+Input
+3
+10 10
+20 4
+70 7
+Output
+1
+0
+4
