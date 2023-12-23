@@ -1,0 +1,25 @@
+171.Subscriptions
+
+CODE:
+
+import math
+for i in range(int(input())):
+    n,x=map(int,input().split())
+    z=math.ceil(n/6)
+    print(z*x)
+
+
+OUTPUT:
+
+Input
+
+3
+1 100
+12 250
+16 135
+
+Output
+
+100
+500
+405
