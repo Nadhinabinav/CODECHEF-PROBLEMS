@@ -1,0 +1,29 @@
+173.Pizza Cutting
+
+CODE:
+
+for i in range(int(input())):
+    x=int(input())
+    if(x==1):
+        print("YES")
+    elif(x%2==0):
+        print("YES")
+    else:
+        print("NO")
+
+
+OUTPUT:
+
+Input
+4
+1
+2
+3
+4
+
+Output
+
+YES
+YES
+NO
+YES
