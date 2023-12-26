@@ -1,0 +1,29 @@
+174.Monopoly
+
+CODE:
+
+for i in range(int(input())):
+    a,b,c,d=map(int,input().split())
+    x=max(a,b,c,d)
+    y=(a+b+c+d)-x
+    if(x>y):
+        print("YES")
+    else:
+        print("NO")
+
+OUTPUT:
+
+Input
+
+4
+1 1 1 10
+30 20 6 4
+100 90 3 4
+14 15 16 17
+
+Output
+
+YES
+NO
+YES
+NO
