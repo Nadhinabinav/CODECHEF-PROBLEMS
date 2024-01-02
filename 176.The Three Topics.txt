@@ -1,0 +1,24 @@
+176.The Three Topics
+
+CODE:
+
+a,b,c,d=map(int,input().split())
+if(a==d or b==d or c==d):
+    print("YES")
+else:
+    print("NO")
+
+OUTPUT:1
+
+Input
+2 3 7 3
+Output
+YES
+
+OUTPUT:2
+
+Input
+
+4 6 8 5
+Output
+No
