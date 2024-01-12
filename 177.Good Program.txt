@@ -1,0 +1,26 @@
+177.Good Program
+
+CODE:
+
+h=int(input()) 
+for i in range(h) :
+    N=int(input()) 
+    if(N%4==0) :
+        print("Good") 
+    else:
+        print("Not Good")
+
+OUTPUT:
+
+Input
+4
+8
+17
+52
+3
+
+Output
+Good
+Not Good
+Good
+Not Good
