@@ -1,0 +1,26 @@
+178.Qualify the round
+
+CODE:
+
+for i in range(int(input())):
+    x,a,b=map(int,input().split())
+    c=(b*2)+a 
+    if(c>=x):
+        print("Qualify")
+    else:
+        print("NotQualify")
+
+OUTPUT:
+
+
+Input
+3
+15 9 3
+5 3 0
+6 2 8
+
+Output
+
+Qualify
+NotQualify
+Qualify
