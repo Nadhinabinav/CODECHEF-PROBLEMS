@@ -1,0 +1,24 @@
+179.Water Park
+
+CODE:
+
+w,h=map(int,input().split())
+if(w>=60 and 130>=h):
+    print("YES")
+else:
+    print("NO")
+    
+
+OUTPUT:1
+
+Sample Input
+75 110
+Sample Output
+YES
+
+OUTPUT:2
+
+Input
+55 115
+Output
+NO
