@@ -1,0 +1,27 @@
+182.Why we need functions
+
+QUESTION:
+
+Write a program to calculate the square and cube of numbers 2, 3, and 4.
+
+CODE:
+
+a = 2
+b = 3
+c= 4
+print(a**2)
+print(a**3)
+print(b**2)
+print(b**3)
+print(c**2)
+print(c**3)
+
+
+OUTPUT:
+
+4
+8
+9
+27
+16
+64
