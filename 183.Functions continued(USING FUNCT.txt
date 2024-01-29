@@ -1,0 +1,28 @@
+183.Functions continued(USING FUNCTION)
+
+QUESTION:
+
+Write a program to calculate the square and cube of numbers 2, 3, and 4.
+
+CODE:
+
+def calculate_square_and_cube(number):
+    square = number ** 2
+    cube = number ** 3
+    print(square)
+    print(cube)
+
+
+calculate_square_and_cube(2)
+calculate_square_and_cube(3)
+calculate_square_and_cube(4)
+
+
+OUTPUT:
+
+4
+8
+9
+27
+16
+64
