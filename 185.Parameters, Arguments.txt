@@ -1,0 +1,24 @@
+185.Parameters, Arguments
+
+QUESTION:
+
+Note that there is a difference between Parameters and Arguments - actual values passed to a function.
+
+Check the code template below
+
+a, b are Parameters inside the function
+A, B are Arguments passed to the function
+
+
+CODE:
+
+def greet(name):
+    print("Hello, " + name + "!")
+
+A= "Alice"
+greet(A)
+
+OUTPUT:
+
+Your Output
+Hello, Alice!
