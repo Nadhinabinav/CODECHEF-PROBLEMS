@@ -1,0 +1,27 @@
+191.Exams
+
+CODE:
+
+t=int(input())
+for i in range(t):
+    x,y,z=map(int,input().split())
+    c=x*y
+    b=(z/c)*100
+    if (b>50):
+        print("YES")
+    else:
+        print("NO")
+
+OUTPUT:
+
+Sample Input
+4
+2 10 12
+2 10 3
+1 5 3
+3 6 9
+Your Output
+YES
+NO
+YES
+NO
