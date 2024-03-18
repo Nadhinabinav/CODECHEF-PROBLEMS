@@ -1,0 +1,31 @@
+193.Bus Seat Numbering
+
+CODE:
+
+for i in range(int(input())):
+    x = int(input())
+    
+    if x>=1 and x<=10:
+        print('lower double')
+    elif x>10 and x<=15:
+        print('lower single')
+    elif x>=16 and x<=25:
+        print('upper double')
+    else:
+        print('upper single')
+
+OUTPUT:
+
+Sample Input
+5
+6
+28
+16
+13
+10
+Your Output
+lower double
+upper single
+upper double
+lower single
+lower double
