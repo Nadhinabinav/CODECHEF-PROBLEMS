@@ -1,0 +1,23 @@
+195.Christmas Greetings
+
+CODE:
+
+x=int(input())
+if(x==25):
+    print("CHRISTMAS")
+else:
+    print("ORDINARY")
+
+OUTPUT:
+
+Sample Input
+25
+Your Output
+CHRISTMAS
+
+Input
+
+12
+Output
+
+ORDINARY
