@@ -1,0 +1,20 @@
+197.Watching Movies at 2x
+
+CODE:
+
+x,y=map(int,input().split())
+z=y//2
+print(x-z)
+
+OUTPUT:
+
+Sample Input
+100 20
+Your Output
+100
+
+
+Input
+50 24
+Output
+38
