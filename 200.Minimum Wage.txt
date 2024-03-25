@@ -1,0 +1,25 @@
+200.Minimum Wage
+
+CODE:
+
+x=int(input())
+if x>11:
+    print('Yes')
+else:
+    print('No')
+
+OUTPUT:1
+
+Input
+20
+Output
+YES
+
+OUTPUT:2
+
+Input
+11
+
+Output
+
+NO
