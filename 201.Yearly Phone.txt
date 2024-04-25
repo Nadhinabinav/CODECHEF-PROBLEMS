@@ -1,0 +1,20 @@
+201.Yearly Phone
+
+CODE:
+
+x = input()
+print('k'+x[2:])
+
+OUTPUT:1
+
+Sample Input
+2000
+Your Output
+k00
+
+OUTPUT:2
+Input
+2024
+Output
+K24
+
