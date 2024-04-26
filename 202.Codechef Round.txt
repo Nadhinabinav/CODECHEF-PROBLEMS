@@ -1,0 +1,21 @@
+202.Codechef Round
+
+CODE:
+
+n=int(input())
+if n==4:
+    print('Yes')
+else:
+    print('No')
+
+OUTPUT:
+
+Sample Input
+1
+Your Output
+No
+
+Input
+4
+Output
+YES
