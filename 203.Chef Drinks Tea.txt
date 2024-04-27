@@ -1,0 +1,22 @@
+203.Chef Drinks Tea
+
+CODE:
+
+for i in range(int(input())):
+    x,y,z = map(int,input().split())
+    print((z*x)//y) if x%y==0 else print(((x//y)+1)*z)
+
+OUTPUT:
+
+Sample Input
+4
+3 3 3
+6 3 3
+5 7 2
+9 4 5
+Your Output
+3
+6
+2
+15
+
