@@ -1,0 +1,13 @@
+204.International Education Day!
+
+CODE:
+
+a,b,c=map(int,input().split())
+print(max((c*a),(c*b)))
+
+OUTPUT:
+
+Sample Input
+4 2 5
+Your Output
+20
