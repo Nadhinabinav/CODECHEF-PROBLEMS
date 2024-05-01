@@ -1,0 +1,25 @@
+207.Literacy Rate
+
+CODE:
+
+t=int(input())
+for i in range(t):
+    p,l=map(int,input().split())
+    if((l/p)>=0.75):
+        print('yes')
+    else:
+        print('no')
+
+OUTPUT:
+
+Sample Input
+4
+100 75
+20 5
+53 51
+50 10
+Your Output
+yes
+no
+yes
+no
