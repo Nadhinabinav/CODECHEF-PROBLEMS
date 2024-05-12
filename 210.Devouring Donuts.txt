@@ -1,0 +1,13 @@
+210.Devouring Donuts
+
+CODE:
+
+x,y = map(int,input().split())
+print(x*y)
+
+OUTPUT:
+
+Sample Input
+2 280
+Your Output
+560
