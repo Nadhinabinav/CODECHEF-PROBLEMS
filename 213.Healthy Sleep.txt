@@ -1,0 +1,19 @@
+213.Healthy Sleep
+
+CODE:
+
+r=int(input())
+if r==8:
+    print("perfect")
+elif r<8 :
+    print("Less")
+else:
+    print("More")
+
+
+OUTPUT:
+
+Sample Input
+2
+Your Output
+Less
