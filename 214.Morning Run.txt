@@ -1,0 +1,23 @@
+214.Morning Run
+
+CODE:
+
+x,y=map(int,input().split())
+if(x*2+y*2>=1000):
+    print("YES")
+else:
+    print("NO")
+
+
+OUTPUT:
+
+Sample Input
+400 100
+Your Output
+YES
+
+
+Input
+300 150
+Output
+NO
