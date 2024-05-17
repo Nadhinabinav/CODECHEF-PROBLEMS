@@ -1,0 +1,22 @@
+215.AC Please
+
+CODE:
+
+x=int(input())
+if(x>30):
+    print("yes")
+else:
+    print("No")
+
+OUTPUT:
+
+Sample Input
+30
+Your Output
+No
+
+OUTPUT 2:
+Sample Input
+40
+Your Output
+YES
