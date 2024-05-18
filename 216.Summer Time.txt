@@ -1,0 +1,16 @@
+216.Summer Time
+
+CODE:
+
+x=int(input())
+if x>35:
+    print("YES")
+else:
+    print("NO")
+
+OUTPUT:
+
+Sample Input
+35
+Your Output
+NO
