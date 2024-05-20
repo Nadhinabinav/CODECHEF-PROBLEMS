@@ -1,0 +1,16 @@
+217.Algomaniac Finals
+
+CODE:
+
+x=int(input())
+if x==17:
+    print("YAY")
+else:
+    print("NO")
+
+OUTPUT:
+
+Sample Input
+17
+Your Output
+YAY
