@@ -1,0 +1,16 @@
+220.Giant Wheel
+
+CODE:
+
+x=int(input())
+if x>=60:
+    print('Yes')
+else:
+    print('No')
+
+OUTPUT:
+
+Sample Input
+59
+Your Output
+No
