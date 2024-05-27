@@ -1,0 +1,13 @@
+221.Reach 5 Star
+
+CODE:
+
+a,b=map(int,input().split())
+print("YES" if((a+b) >=2000) else "NO")
+
+OUTPUT:
+
+Sample Input
+1900 100
+Your Output
+YES
