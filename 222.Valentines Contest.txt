@@ -1,0 +1,17 @@
+222.Valentines Contest
+
+CODE;
+
+R=int(input())
+if R==121:
+    print("Likely")
+else:
+    print("Unlikely")
+
+output:
+
+
+Sample Input
+121
+Your Output
+Likely
