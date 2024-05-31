@@ -1,0 +1,17 @@
+223.Who Makes P1
+
+CODE:
+
+x,y = map(int,input().split())
+
+if(x<=y):
+    print("Tyro")
+else:
+    print("Dom")
+
+OUTPUT:
+
+Sample Input
+5 5
+Your Output
+Tyro
