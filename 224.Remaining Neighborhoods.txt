@@ -1,0 +1,13 @@
+224.Remaining Neighborhoods
+
+CODE:
+
+n = int(input())
+print(100 - n)
+
+OUTPUT:
+
+Sample Input
+78
+Your Output
+22
