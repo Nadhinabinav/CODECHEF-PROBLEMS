@@ -1,0 +1,16 @@
+225.Leg Space
+
+CODE:
+
+x,y=map(int,input().split())
+if x<y:
+    print("YES")
+else:
+    print("NO")
+
+OUTPUT:
+
+Sample Input
+2 3
+Your Output
+YES
