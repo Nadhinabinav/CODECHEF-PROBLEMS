@@ -1,0 +1,16 @@
+227.Football Training
+
+CODE:
+
+x,y=map(int,input().split())
+if x>y:
+    print('FREEKICK')
+else:
+    print('PENALTY')
+
+OUTPUT:
+
+Sample Input
+10 7
+Your Output
+FREEKICK
