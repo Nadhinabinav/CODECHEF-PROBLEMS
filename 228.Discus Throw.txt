@@ -1,0 +1,19 @@
+228.Discus Throw
+
+CODE:
+
+for _ in range(int(input())):
+    a,b,c = map(int,input().split())
+    print(max(a,b,c))
+
+OUTPUT:
+
+Sample Input
+3
+10 15 8
+32 32 32
+82 45 54
+Your Output
+15
+32
+82
