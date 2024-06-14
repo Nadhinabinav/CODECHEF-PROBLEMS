@@ -1,0 +1,27 @@
+231.Chocolate Distribution
+
+CODE:
+
+T = int(input())
+for i in range(T):
+    N = int(input())
+    if N % 2 == 0: 
+        mini = N//2 
+    else:
+        mini = N//2 + 1 
+    L = [mini, N] 
+    print(*L) 
+
+OUTPUT:
+
+Sample Input
+4
+1
+2
+7
+8
+Your Output
+1 1
+1 2
+4 7
+4 8
