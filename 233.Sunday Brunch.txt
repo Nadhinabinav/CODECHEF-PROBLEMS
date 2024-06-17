@@ -1,0 +1,27 @@
+233.Sunday Brunch
+
+CODE:
+
+from math import floor
+t=int(input())
+for i in range(t):
+    x,y=map(int,input().split())
+    s=floor(x/y)
+    if(s>20):
+        print(20)
+    else:
+        print(s)
+
+OUTPUT:
+
+Sample Input
+4
+20 1
+20 2
+100 4
+74 5
+Your Output
+20
+10
+20
+14
