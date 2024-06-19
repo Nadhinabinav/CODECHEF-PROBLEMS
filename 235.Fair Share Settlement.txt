@@ -1,0 +1,20 @@
+235.Fair Share Settlement
+
+CODE:
+
+for i in range(int(input())):
+    data = input().split()
+    N, K = int(data[0]), int(data[1])
+    print(N-((N//(K+1))*K))
+
+OUTPUT:
+
+Sample Input
+3
+500 1
+999 9
+1 4
+Your Output
+250
+108
+1
