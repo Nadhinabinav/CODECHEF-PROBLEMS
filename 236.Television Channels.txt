@@ -1,0 +1,16 @@
+236.Television Channels
+
+CODE:
+
+x=int(input())
+if x%2==0:
+    print(x//2)
+else:
+    print((x+1)//2)
+
+OUTPUT:
+
+Sample Input
+5
+Your Output
+3
