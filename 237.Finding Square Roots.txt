@@ -1,0 +1,20 @@
+237.Finding Square Roots
+
+CODE:
+
+import math
+for i in range(int(input())):
+    a = int(input())
+    print(math.floor(math.sqrt(a)))
+
+OUTPUT:
+
+Sample Input
+3
+10
+5
+10000
+Your Output
+3
+2
+100
