@@ -1,0 +1,21 @@
+239.Chef and Water Bottles
+
+CODE:
+
+T = int(input())
+for i in range(T):
+    N, X, K = map(int, input().split())
+    A = K // X
+    print(min(N, A))
+
+OUTPUT:
+
+Sample Input
+3
+5 2 8
+10 5 4
+3 1 4
+Your Output
+4
+0
+3
