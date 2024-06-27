@@ -1,0 +1,19 @@
+240.Yoga Day
+
+CODE:
+
+def calculate_rounds_of_surya_namaskar(N):
+    rounds = N // 12
+    return rounds
+
+N = int(input())
+
+print(calculate_rounds_of_surya_namaskar(N))
+
+OUTPUT:
+
+Sample Input
+55
+Your Output
+4
+
