@@ -1,0 +1,28 @@
+243.Trade Surplus
+
+CODE:
+
+T=int(input())
+for i in range(T):
+    A1,A2,B1,B2=map(int,input().split())
+    a=A1-A2
+    b=B1-B2
+    c=a+b 
+    if c<0:
+        print('yes'.lower())
+    else:
+        print('no'.lower())
+
+OUTPUT:
+
+Sample Input
+4
+4 6 5 4
+1 1 1 1
+10 5 12 6
+1 100 1 100
+Your Output
+yes
+no
+no
+yes
