@@ -1,0 +1,18 @@
+244.Lucky Clover
+
+
+CODE:
+
+n = int(input())
+if n==1:
+    print(4)
+elif n>1:
+    print(4+3*(n-1))
+
+OUTPUT:
+
+Sample Input
+5
+Your Output
+16
+
