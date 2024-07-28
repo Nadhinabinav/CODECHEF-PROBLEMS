@@ -1,0 +1,27 @@
+245.Capital Gain Tax
+
+CODE:
+
+def calculate_capital_gain_tax_change(X, Y):
+    if Y > X:
+        return "INCREASED"
+    elif Y < X:
+        return "DECREASED"
+    else:
+        return "SAME"
+
+input_values = input().strip().split()
+X = int(input_values[0])
+Y = int(input_values[1])
+
+result = calculate_capital_gain_tax_change(X, Y)
+print(result)
+
+
+
+OUTPUT:
+
+Sample Input
+10 12
+Your Output
+INCREASED
