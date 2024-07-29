@@ -1,0 +1,16 @@
+246.International Justice Day
+
+
+CODE:
+
+Power,defense=map(int,input().split())
+if Power>=defense: print("YES")
+else: print("NO")
+
+
+OUTPUT:
+
+Sample Input
+5 4
+Your Output
+YES
