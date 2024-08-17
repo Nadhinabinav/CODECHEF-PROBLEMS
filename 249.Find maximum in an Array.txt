@@ -1,0 +1,24 @@
+249.Find maximum in an Array
+
+
+CODE:
+
+for i in range(int(input())):
+    n=int(input())
+    s=[]
+    for i in range(n):
+        s.append(int(input()))
+    print(max(s))
+
+
+OUTPUT:
+
+
+Input
+
+1
+5
+4 7 6 3 1
+
+Output
+7
