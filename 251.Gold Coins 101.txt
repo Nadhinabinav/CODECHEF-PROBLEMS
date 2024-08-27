@@ -1,0 +1,31 @@
+251.Gold Coins 101
+
+CODE:
+
+A_B_X_Y= input("")
+
+seperate = A_B_X_Y.split()
+sep_int = []
+
+for i in seperate:
+    sep_int.append(int(i))
+
+sep_tup = tuple(sep_int)
+A, B, X, Y = sep_tup
+
+if (1 <= B < A <= 10) and (1 <= X, Y <= 5) and (X != Y):
+    if X > Y:
+        print(A)
+    
+    elif X < Y:
+        print(B)
+    else:
+        print(0)
+
+OUTPUT:
+
+
+Sample Input
+5 2 3 4
+Your Output
+2
