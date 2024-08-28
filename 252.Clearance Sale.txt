@@ -1,0 +1,18 @@
+252.Clearance Sale
+
+CODE:
+
+def total_tshirts(X):
+    free_tshirts = X // 2
+    total_tshirts = X + free_tshirts
+    return total_tshirts
+X = int(input())  
+print(total_tshirts(X))  
+
+
+OUTPUT:
+
+Sample Input
+30
+Your Output
+45
