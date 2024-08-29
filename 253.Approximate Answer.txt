@@ -1,0 +1,18 @@
+253.Approximate Answer
+
+CODE:
+
+X,Y,K=map(int,input().split())
+diff=abs(X-Y)
+if diff<=K:
+    print("Yes")
+else:
+    print("No")
+
+
+OUTPUT:
+
+Sample Input
+10 5 4
+Your Output
+No
