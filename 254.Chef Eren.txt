@@ -1,0 +1,20 @@
+254.Chef Eren
+
+
+CODE:
+
+for _ in range(int(input())):
+    n, a, b = map(int,input().split())
+    print(b*(n%2) + (a+b)*(n//2))
+
+OUTPUT:
+
+Sample Input
+3
+1 2 2
+2 3 4
+4 20 30
+Your Output
+2
+7
+100
