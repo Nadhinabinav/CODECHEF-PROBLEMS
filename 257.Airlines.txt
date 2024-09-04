@@ -1,0 +1,22 @@
+257.Airlines
+
+CODE:
+
+for i in range(int(input())):
+    x,n=map(int,input().split())
+    a=(n // 100) + (1 if n % 100 != 0 else 0)
+    b=max(0,a-x)
+    print(b)
+
+
+OUTPUT:
+
+Sample Input
+3
+4 600
+3 523
+8 245
+Your Output
+2
+3
+0
