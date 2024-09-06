@@ -1,0 +1,18 @@
+258.IOI 2024
+
+
+CODE:
+
+x=int(input())
+if 1<=x<=8:
+    print("yes")
+else:
+    print("no")
+
+
+OUTPUT:
+
+Sample Input
+8
+Your Output
+yes
