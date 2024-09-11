@@ -1,0 +1,27 @@
+260.Chef and his Apps
+
+CODE:
+
+for i in range(int(input())):
+        s,x,y,z=map(int,input().split())
+        if (x+y)+z<=s:
+                print("0")
+        elif (x+z)<=s or (y+z)<=s:
+                print("1")
+        else:
+                print("2")
+
+
+OUTPUT:
+
+Sample Input
+4
+10 1 2 3
+9 4 5 1
+15 5 10 15
+100 20 30 75
+Your Output
+0
+1
+2
+1
