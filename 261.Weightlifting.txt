@@ -1,0 +1,20 @@
+261.Weightlifting
+
+
+CODE:
+
+A1,A2,B1,B2,C1,C2 = map(int,input().split())
+round1_max = max(A1,A2)
+round2_max = max(B1,B2)
+round3_max = max(C1,C2)
+total_score = (round1_max + round2_max + round3_max)
+print(total_score)
+
+
+
+OUTPUT:
+
+Sample Input
+250 240 205 217 296 299
+Your Output
+766
