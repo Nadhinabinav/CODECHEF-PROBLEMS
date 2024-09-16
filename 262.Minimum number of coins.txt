@@ -1,0 +1,25 @@
+262.Minimum number of coins
+
+CODE:
+
+for i in range(int(input())):
+    x=int(input())
+    if(x%10==0):
+        print(x//10)
+    elif(x%10!=0 and x%5==0):
+        print((x//10)+1)
+    else:
+        print("-1")
+
+
+OUTPUT:
+
+Sample Input
+3
+50
+15
+8
+Your Output
+5
+2
+-1
