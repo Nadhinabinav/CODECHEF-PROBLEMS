@@ -1,0 +1,33 @@
+265.International Gym Day
+
+CODE:
+
+for _ in range(int(input())):  # no. of test cases
+    d,x,y=map(int,input().split())
+    ans=-1
+    if y>=x:
+        print(0)
+    else:
+        c=0
+        while y!=0:
+            y-=1
+            c+=1
+            dis=(d*c*x)/100
+            discount=x-dis
+            if (x-dis)<=y:
+                ans=c
+                break
+        print(ans)
+    
+
+OUTPUT:
+
+Sample Input
+3
+2 2 2
+5 40 38
+3 26 15
+Your Output
+0
+2
+-1
